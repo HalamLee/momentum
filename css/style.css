@@ -1,0 +1,98 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  text-align: center;
+}
+
+#clock {
+  margin: 0;
+  font-size: 100px;
+  color: white;
+}
+
+#weather span {
+  color: white;
+}
+
+.form {
+  position: relative;
+  margin: 0 auto;
+}
+
+#login-form {
+  /* width: 250px; */
+  margin: 0 auto;
+  display: flex;
+}
+
+#login-form input {
+  font-size: 30px;
+  border: none;
+  padding: 10px;
+  margin-right: 10px;
+}
+
+#login-form button {
+  padding: 10px;
+}
+
+input {
+  height: 20px;
+  text-align: center;
+}
+
+#greeting {
+  color: white;
+}
+
+#todo-form input {
+  width: 220px;
+}
+
+#todo-form.hidden {
+  position: relative;
+  top: -130px;
+}
+
+#todo-list {
+  list-style: none;
+  color: white;
+}
+
+#todo-list li {
+  position: relative;
+  left: -20px;
+  margin-bottom: 10px;
+}
+
+#quote {
+  color: rgb(255, 255, 255);
+  background-color: rgba(66, 66, 66, 0.787);
+  margin: 0 auto;
+  border-radius: 45px;
+  padding: 5px 20px;
+}
+
+.hidden#login-form {
+  display: none;
+}
+.hidden {
+  display: none;
+}
